@@ -9,7 +9,7 @@
 
 ## SpringBoot实例列表
 * [x] [SpringBootHelloWorld](https://github.com/yandongquan/SpringBootInstance/tree/master/SpringBootHelloWorld)：SpringBoot入门之HelloWorld
-* [x] [SpringBootWeb]()： SpringBoot入门之Web开发
+* [x] [SpringBootWeb](https://github.com/yandongquan/SpringBootInstance/tree/master/SpringBootWeb)： SpringBoot入门之Web开发
 * [x] [SpringBootTemplate]()： SpringBoot进阶之模板引擎
 * [x] [SpringBootSQL]()： SpringBoot进阶之访问数据库
 * [x] [SpringBootException]()： SpringBoot进阶之统一异常处理
