@@ -1,0 +1,204 @@
+﻿body {
+  font-family:'Microsoft YaHei',sans-serif ;
+}
+
+a {
+  color: #777777 ;
+}
+/* head */
+.navbar {
+  background-color: #FFF ;
+}
+.collapse {
+border-top:1px solid #55524A;
+}
+
+.navbar .collapse .nav li .a-check{
+  color: #F0AD4E ;
+  background-color: #FCF8E3 ;
+  border-color: #FCF8E3 ;
+}
+
+.navbar .collapse .nav li a:hover {
+  color: #F0AD4E ;
+  background-color: #FCF8E3 ;
+  border-color: #FCF8E3 ;
+}
+
+.navbar .collapse .nav li a:link {
+  text-decoration: none;
+  border-color: #FFF ;
+}
+.navbar .collapse .nav li a:visited {
+  text-decoration: none;
+  border-color: #FFF ;
+}
+
+
+
+/*字体大小*/
+.text-size {
+  font-size: 16px ;
+}
+
+/* 字体颜色 */
+
+.text-color{
+  color: #F0AD4E ;
+}
+
+a:hover{
+  color: #F0AD4E ;
+  text-decoration: none; ;
+}
+
+/*右边*/
+.pan-link {
+  font-size: 40px ;
+  color: #F0AD4E ;
+}
+.badge-color {
+  background-color: #F0AD4E ;
+}
+
+
+
+.copyright {
+  background-color: #fff ;
+  font-size: 10px ;
+}
+.copyright .container {
+  padding-bottom: 20px ;
+  text-align: center ;
+  color: #55524A ;
+}
+.copyright .container a{
+  color: #55524A ;
+}
+.copyright .container a:hover{
+  color: #55524A ;
+}
+.copyright .container p {
+  color: red ;
+}
+
+/*友情链接*/
+.link-a {
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.link-a:hover{
+  text-decoration: none;
+}
+.label:hover{
+  color: #000 ;
+}
+.label-danger:hover{
+    background-color: #FCF8E3;
+}
+.label-info:hover{
+    background-color: #FCF8E3;
+}
+.label-default:hover{
+    background-color: #FCF8E3;
+}
+.label-primary:hover{
+    background-color: #FCF8E3;
+}
+.label-warning:hover{
+    background-color: #FCF8E3;
+}
+.label-success:hover{
+    background-color: #F5CEE3;
+}
+
+/*重写label*/
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 100;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+/*置顶*/
+#scroll {
+    width: 40px;
+    //height: 35px;
+    height: 145px ;
+    right: 50px;
+    bottom: 90px;
+    //display: none;
+    cursor: pointer;
+    position: fixed;
+    // background: #fff  url("../images/goTop.png") -10px -8px ;
+    //background-color: #bab3b2;
+}
+
+#scroll a{
+  padding-top: 8px ;
+  padding-bottom: 8px ;
+  margin-top: 4px;
+  display: block;
+  //background-color: #D9EDF7;
+  width: 40px;
+  color: #F0AD4E ;
+  text-decoration: none;
+  border:1px solid #F0AD4E;
+}
+
+#scroll a:hover {
+  color: #F0AD4E ;
+  // background-color: #FFF ;
+  background-color: #FCF8E3;
+  border:1px solid #FCF8E3;
+}
+
+.btn-qrcode {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+/*popover超出*/
+.popover {
+    width:auto;
+    max-width:1020px;
+}
+
+.p-title {
+  font-size: 16px ;
+  color:red ;
+}
+.p-title a{
+  color:#5BC0DE ;
+}
+.p-title a:hover{
+  color:#F0AD4E ;
+}
+
+.p-footer {
+  color:#777777 ;
+}

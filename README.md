@@ -30,6 +30,8 @@
 * [x] [SpringBoot进阶之访问数据库](http://blog.csdn.net/wenteryan/article/details/77840347)
 * [x] [SpringBoot进阶之统一异常处理](http://blog.csdn.net/wenteryan/article/details/77853343)
 * [ ] SpringBoot进阶使用Swagger2构建RESTful API
+* [ ] SpringBoot进阶定时任务
+* [ ] SpringBoot进阶邮件服务
 * [ ] SpringBoot进阶整合Mybatis
 * [ ] SpringBoot进阶整合Redis
 * [ ] SpringBoot进阶整合消息队列RabbitMQ
