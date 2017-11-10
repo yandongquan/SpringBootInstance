@@ -1,6 +1,7 @@
 # SpringBootInstance
 记录学习SpringBoot的实例，以供学习、参考。
 
+[个人博客](https://yandongquan.github.io)
 
 [个人CSDN博客](http://blog.csdn.net/wenteryan)
 
