@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8"></meta>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+    <title>错误异常页面</title>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"></link>
+    <link rel="stylesheet" type="text/css" href="/css/style.css"></link>
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css"></link>
+
+</head>
+<body>
+
+<!-- 内容 -->
+<div class="container">
+	<br></br>
+	<div class="alert alert-warning alert-dismissible" role="alert">
+	  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	  <h2 th:text="${errorname }"></h2>
+	  <p th:text="${exception.message }"></p>
+	  <p th:text="${url }"></p>
+	</div>
+</div>
+
+<!-- 内容 -->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script type="text/javascript" src="/js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/popover.js"></script>
+
+</body>
+</html>
