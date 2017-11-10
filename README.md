@@ -29,10 +29,10 @@
 * [x] [SpringBoot进阶之模板引擎](http://blog.csdn.net/wenteryan/article/details/77835809)
 * [x] [SpringBoot进阶之访问数据库](http://blog.csdn.net/wenteryan/article/details/77840347)
 * [x] [SpringBoot进阶之统一异常处理](http://blog.csdn.net/wenteryan/article/details/77853343)
-* [ ] SpringBootSwagger：SpringBoot进阶使用Swagger2构建RESTful API
-* [ ] SpringBootMybatis：SpringBoot进阶整合Mybatis
-* [ ] SpringBootRedis：SpringBoot进阶整合Redis
-* [ ] SpringBootMQ：SpringBoot进阶整合消息队列RabbitMQ
+* [ ] SpringBoot进阶使用Swagger2构建RESTful API
+* [ ] SpringBoot进阶整合Mybatis
+* [ ] SpringBoot进阶整合Redis
+* [ ] SpringBoot进阶整合消息队列RabbitMQ
 * [ ] SpringBoot实战开发Java错误管理系统
 * [ ] 更多功能未完待续。。。
 ## 交流
