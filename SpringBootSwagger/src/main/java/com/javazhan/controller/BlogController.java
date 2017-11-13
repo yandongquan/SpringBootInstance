@@ -1,6 +1,7 @@
 package com.javazhan.controller;
 
 import com.javazhan.domain.Blog;
+import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,6 +19,7 @@ import java.util.List;
 public class BlogController {
 
     @ApiOperation(value = "获取单个博客", notes = "根据Id获取博客")
+    @ApiImplicitParam(name = "id", value = "博客ID", required = true, paramType="path", dataType = "Long")
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
     public Blog getBlogById(@PathVariable Long id) {
         Blog blog = new Blog() ;

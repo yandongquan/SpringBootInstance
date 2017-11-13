@@ -35,8 +35,8 @@ public class ABlogController {
         return map ;
     }
 
-    @ApiOperation(value = "获取博客信息")
-    @ApiImplicitParam(name = "id", value = "博客ID", required = true, dataType = "Long")
+    @ApiOperation(value = "获取博客信息", notes = "根据ID获取博客对象")
+    @ApiImplicitParam(name = "id", value = "博客ID", required = true, paramType="path", dataType = "Long")
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
     public Blog getBlogById(@PathVariable Long id) {
         Blog blog = new Blog() ;
@@ -46,7 +46,7 @@ public class ABlogController {
 
     @ApiOperation(value = "修改博客信息", notes = "根据传过来的博客对象修改博客信息")
     @ApiImplicitParams({
-            @ApiImplicitParam(name = "id", value = "博客ID", required = true, dataType = "Long"),
+            @ApiImplicitParam(name = "id", value = "博客ID", required = true, paramType="path", dataType = "Long"),
             @ApiImplicitParam(name = "blog", value = "博客信息实体blog", required = true, dataType = "Blog")
     })
     @RequestMapping(value = "/{id}", method = RequestMethod.PUT)
@@ -61,8 +61,8 @@ public class ABlogController {
         return map ;
     }
 
-    @ApiOperation(value = "删除博客信息")
-    @ApiImplicitParam(name = "id", value = "博客ID", required = true, dataType = "Long")
+    @ApiOperation(value = "删除博客信息", notes = "根据ID删除博客对象")
+    @ApiImplicitParam(name = "id", value = "博客ID", required = true, paramType="path", dataType = "Long")
     @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
     public Map deleteBlog(@PathVariable Long id) {
         blogs.remove(id) ;
