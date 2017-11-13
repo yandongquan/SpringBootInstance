@@ -1,4 +1,4 @@
-package com.javazhan.web.rest;
+package com.javazhan.controller.rest;
 
 import java.util.List;
 

@@ -13,7 +13,7 @@
 * [x] [SpringBootTemplate](https://github.com/yandongquan/SpringBootInstance/tree/master/SpringBootTemplate)： SpringBoot进阶之模板引擎
 * [x] [SpringBootSQL](https://github.com/yandongquan/SpringBootInstance/tree/master/SpringBootSQL)： SpringBoot进阶之访问数据库
 * [x] [SpringBootException](https://github.com/yandongquan/SpringBootInstance/tree/master/SpringBootException)： SpringBoot进阶之统一异常处理
-* [ ] SpringBootSwagger：SpringBoot进阶使用Swagger2构建RESTful API
+* [ ] SpringBootSwagger：SpringBoot进阶之Swagger2构建RESTful API
 * [ ] SpringBootQuartz：SpringBoot进阶定时任务
 * [ ] SpringBootEmail：SpringBoot进阶邮件服务
 * [ ] SpringBootMybatis：SpringBoot进阶整合Mybatis
@@ -29,7 +29,7 @@
 * [x] [SpringBoot进阶之模板引擎](http://blog.csdn.net/wenteryan/article/details/77835809)
 * [x] [SpringBoot进阶之访问数据库](http://blog.csdn.net/wenteryan/article/details/77840347)
 * [x] [SpringBoot进阶之统一异常处理](http://blog.csdn.net/wenteryan/article/details/77853343)
-* [ ] SpringBoot进阶使用Swagger2构建RESTful API
+* [ ] SpringBoot进阶之Swagger2构建RESTful API
 * [ ] SpringBoot进阶定时任务
 * [ ] SpringBoot进阶邮件服务
 * [ ] SpringBoot进阶整合Mybatis
