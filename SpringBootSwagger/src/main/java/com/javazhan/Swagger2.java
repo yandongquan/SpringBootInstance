@@ -13,8 +13,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * Created by yando on 2017/11/10.
  */
 
-@Configuration //必须存在
-@EnableSwagger2 //必须存在
+@Configuration
+@EnableSwagger2
 public class Swagger2 {
 
     @Bean
@@ -28,7 +28,7 @@ public class Swagger2 {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("Spring Boot中使用Swagger2构建RESTful APIs")
+                .title("Spring Boot中使用Swagger2构建RESTful APIS")
                 .description("HTTP对外开放接口")
                 .version("1.0.0")
                 .termsOfServiceUrl("http://blog.csdn.net/wenteryan")
