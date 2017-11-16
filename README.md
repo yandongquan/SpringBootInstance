@@ -37,5 +37,6 @@
 * [ ] SpringBoot进阶整合消息队列RabbitMQ
 * [ ] SpringBoot实战开发Java错误管理系统
 * [ ] 更多功能未完待续。。。
+
 ## 交流
 QQ群：期待着。。。
