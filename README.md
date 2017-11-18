@@ -24,6 +24,7 @@
 * [ ] 更多功能未完待续。。。
 
 ## SpringBoot参考文章列表
+
 * [x] [SpringBoot入门之HelloWorld](http://blog.csdn.net/wenteryan/article/details/77748522)
 * [x] [SpringBoot入门之Web开发](http://blog.csdn.net/wenteryan/article/details/77833927)
 * [x] [SpringBoot进阶之模板引擎](http://blog.csdn.net/wenteryan/article/details/77835809)
