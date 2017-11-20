@@ -8,6 +8,7 @@
 [Spring Boot 入门+实战专栏](http://blog.csdn.net/column/details/15021.html)
 
 ## SpringBoot实例列表
+
 * [x] [SpringBootHelloWorld](https://github.com/yandongquan/SpringBootInstance/tree/master/SpringBootHelloWorld)：SpringBoot入门之HelloWorld
 * [x] [SpringBootWeb](https://github.com/yandongquan/SpringBootInstance/tree/master/SpringBootWeb)： SpringBoot入门之Web开发
 * [x] [SpringBootTemplate](https://github.com/yandongquan/SpringBootInstance/tree/master/SpringBootTemplate)： SpringBoot进阶之模板引擎
