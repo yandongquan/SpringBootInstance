@@ -40,6 +40,15 @@ public class EmailTests {
 
     private static final String recipient = "yandongquanlove@163.com" ;
 
+    @Test
+    public void sendAll() {
+        sendSimpleEmail();
+        sendHtmlEmail();
+        sendAttachmentEmail();
+        sendInlineResourceMail();
+        sendTemplateMail();
+    }
+
     /**
      * 发送简单文本邮件
      */
@@ -93,7 +102,29 @@ public class EmailTests {
             helper.setText("有附件，请查收");
             FileSystemResource file = new FileSystemResource(new File("src/main/resources/static/images/avatar.jpg"));
             //加入邮件
-            helper.addAttachment("图片.jpg", file);
+            helper.addAttachment("avatar.jpg", file);
+        } catch (MessagingException e) {
+            throw new RuntimeException("Messaging  Exception !", e);
+        }
+        javaMailSender.send(message);
+    }
+
+    /**
+     * 发送内联资源邮件
+     */
+    @Test
+    public void sendInlineResourceMail() {
+        MimeMessage message = javaMailSender.createMimeMessage();
+        try {
+            MimeMessageHelper helper = new MimeMessageHelper(message, true);
+            helper.setFrom(sender);
+            helper.setTo(recipient);
+            helper.setSubject("主题：这是有图片的邮件");
+            String imgId = "avatar";
+            String content="<html><body>宫崎骏电影图片：<img src=\'cid:" + imgId + "\' ></body></html>";
+            helper.setText(content, true) ;
+            FileSystemResource res = new FileSystemResource(new File("src/main/resources/static/images/avatar.jpg"));
+            helper.addInline(imgId, res);
         } catch (MessagingException e) {
             throw new RuntimeException("Messaging  Exception !", e);
         }
