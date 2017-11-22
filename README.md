@@ -16,7 +16,7 @@
 * [x] [SpringBootException](https://github.com/yandongquan/SpringBootInstance/tree/master/SpringBootException)： SpringBoot进阶之统一异常处理
 * [x] [SpringBootSwagger](https://github.com/yandongquan/SpringBootInstance/tree/master/SpringBootSwagger)：SpringBoot进阶之Swagger2构建RESTful API
 * [ ] SpringBootQuartz：SpringBoot进阶定时任务
-* [ ] SpringBootEmail：SpringBoot进阶邮件服务(实战模拟注册含源码)
+* [x] [SpringBootEmail：SpringBoot进阶邮件服务(实战模拟注册含源码)](https://github.com/yandongquan/SpringBootInstance/tree/master/SpringBootEmail)：SpringBoot进阶邮件服务(实战模拟注册含源码)
 * [ ] SpringBootMybatis：SpringBoot进阶整合Mybatis
 * [ ] SpringBootRedis：SpringBoot进阶整合Redis
 * [ ] SpringBootShiro：springBoot整合hiro
@@ -33,7 +33,7 @@
 * [x] [SpringBoot进阶之统一异常处理](http://blog.csdn.net/wenteryan/article/details/77853343)
 * [x] [SpringBoot进阶之Swagger2构建RESTful API](http://blog.csdn.net/wenteryan/article/details/78519893)
 * [ ] SpringBoot进阶定时任务
-* [ ] SpringBoot进阶邮件服务(实战模拟注册含源码)
+* [x] [SpringBoot进阶邮件服务(实战模拟注册含源码)](http://blog.csdn.net/wenteryan/article/details/78600865)
 * [ ] SpringBoot进阶整合Mybatis
 * [ ] SpringBoot进阶整合Redis
 * [ ] SpringBoot进阶整合消息队列RabbitMQ
