@@ -1,0 +1,277 @@
+/* base.scss */
+html {
+    box-sizing: border-box;
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+}
+
+*:before, *:after {
+    box-sizing: inherit;
+}
+
+table {
+    width: 100%;
+}
+
+iframe {
+    border: 0;
+    height: 100%;
+    width: 100%;
+}
+
+button {
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+small {
+    display: block;
+}
+
+fieldset {
+    margin: 0;
+}
+
+input,
+fieldset {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    font-size: 1.0rem;
+    font-family: inherit;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+}
+
+svg {
+    display: block;
+    pointer-events: none;
+}
+
+a {
+    color: inherit;
+    display: block;
+    text-decoration: none;
+}
+
+p > a {
+    display: inline;
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+}
+
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* type.scss */
+html {
+    font-size: 62.5%;
+    line-height: 1.5;
+}
+
+body, h1, h2, h3, h4, h5, h6, label, button, input, select, textarea, li, a, strong, i, span, th, td {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-rendering: optimizeSpeed;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.125;
+    margin-top: 0;
+    text-rendering: optimizeLegibility;
+}
+
+p + p {
+    margin-top: 1.5em;
+}
+
+.grid-u,
+[class*="grid-u-"] {
+    display: inline-block;
+    letter-spacing: normal;
+    vertical-align: top;
+    word-spacing: normal;
+    zoom: 1;
+}
+
+.grid-r {
+    word-spacing: -0.34em;
+}
+
+.opera-only :-o-prefocus,
+.grid-r {
+    /* Opera 12 on Windows needs word-spacing. The ".opera-only" selector is used to prevent actual prefocus styling and is not required in markup. */
+    word-spacing: -0.43em;
+}
+
+
+
+/* icons.scss */
+@font-face {
+    font-family: 'comeon-iconset';
+    src: url("https://dl.dropboxusercontent.com/u/26351585/Comeon/comeon-iconfamily.woff2") format("woff2");
+    src: url("https://dl.dropboxusercontent.com/u/26351585/Comeon/comeon-iconfamily.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.no-touchevents .btn.btn--main-cta:hover {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
+.no-touchevents .btn.btn--secondary:hover {
+    -webkit-transform: none;
+    transform: none;
+}
+
+body {
+    background-color: #1abc9c;
+}
+
+.flex-c-c {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 30rem;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.ui-field,
+.ui-button {
+    border-radius: .7rem;
+    height: 4rem;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    width: 25rem;
+}
+.ui-field--hidden,
+.ui-button--hidden {
+    height: 0;
+    margin: 0;
+}
+
+.select__list {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.select__label {
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    opacity: 0.6;
+    padding: 0 3.3rem;
+}
+.select__label--active {
+    opacity: 1;
+}
+
+input {
+    background-color: #fff;
+    margin: .5rem 0;
+    text-align: center;
+}
+
+textarea:focus,
+input:focus {
+    outline-color: #fff;
+}
+
+.pointer {
+    border-left: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+    border-bottom: 1rem solid #fff;
+    height: 0;
+    position: relative;
+    top: .6rem;
+    -webkit-transition: all 30s ease;
+    transition: all 30s ease;
+    width: 0;
+}
+.pointer.--usr-rtn {
+    right: 9rem;
+}
+.pointer.--usr-rst {
+    left: 9.5rem;
+}
+
+button {
+    background: #16a085;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    margin: .5rem 0;
+    -webkit-transition: background 300ms;
+    transition: background 300ms;
+}
+button:hover {
+    background: #138a72;
+}
+button.--usr-rtn::before {
+    content: '登录';
+}
+button.--usr-new::before {
+    content: "注册";
+}
+button.--usr-rst::before {
+    content: "重置密码";
+}
+
+.wrap h1 {
+    padding-top: 20px;
+    color: #FFF;
+    font-size: 26px;
+}
