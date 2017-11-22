@@ -44,7 +44,7 @@ public class UserController {
     @RequestMapping(value = "login", method = RequestMethod.POST)
     public String login(User user) {
         for(User u : map.values()) {
-            if(u!=null || (u.getUserPass()== user.getUserPass()&&u.getUserEmail()== user.getUserEmail())) {
+            if(u!=null && u.getUserPass()== user.getUserPass()&&u.getUserEmail()== user.getUserEmail()) {
                 if(u.getState()==0) {
                     requestData.setCode("9999");
                     requestData.setState("500");
@@ -71,16 +71,20 @@ public class UserController {
         return new Gson().toJson(requestData);
     }
     @RequestMapping(value = "forget", method = RequestMethod.POST)
-    public String forget(String userId) {
-        User u = map.get(userId);
-        if(u==null) {
-            requestData.setCode("9999");
-            requestData.setState("500");
-            requestData.setMessage("无效邮箱");
-            return new Gson().toJson(requestData);
+    public String forget(User user) {
+        for(User u : map.values()) {
+            if(u!=null || u.getUserEmail()== user.getUserEmail()) {
+                u.setUserPass("6666");
+                map.remove(u.getUserId());
+                map.put(u.getUserId(), u);
+                requestData.setMessage("密码已经重置，快去查看你的邮箱");
+                sendSimpleEmail(u.getUserEmail(), "您好，您密码已重置，初始密码：6666，为了你的安全请尽快修改密码。");
+                return new Gson().toJson(requestData);
+            }
         }
-        u.setUserPass("6666");
-        sendSimpleEmail(u.getUserEmail(), "您好，您密码已重置，初始密码：6666，为了你的安全请尽快修改密码。");
+        requestData.setCode("9999");
+        requestData.setState("500");
+        requestData.setMessage("无效邮箱");
         return new Gson().toJson(requestData);
     }
     @RequestMapping(value = "activation/{userId}", method = RequestMethod.GET)
