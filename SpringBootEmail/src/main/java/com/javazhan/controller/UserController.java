@@ -44,7 +44,7 @@ public class UserController {
     @RequestMapping(value = "login", method = RequestMethod.POST)
     public String login(User user) {
         for(User u : map.values()) {
-            if(u!=null && u.getUserPass()== user.getUserPass()&&u.getUserEmail()== user.getUserEmail()) {
+            if(u!=null && u.getUserPass().equals(user.getUserPass()) && u.getUserEmail().equals(user.getUserEmail())) {
                 if(u.getState()==0) {
                     requestData.setCode("9999");
                     requestData.setState("500");
