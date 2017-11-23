@@ -32,7 +32,7 @@
 * [x] [SpringBoot进阶之访问数据库](http://blog.csdn.net/wenteryan/article/details/77840347)
 * [x] [SpringBoot进阶之统一异常处理](http://blog.csdn.net/wenteryan/article/details/77853343)
 * [x] [SpringBoot进阶之Swagger2构建RESTful API](http://blog.csdn.net/wenteryan/article/details/78519893)
-* [ ] SpringBoot进阶定时任务
+* [x] [SpringBoot进阶定时任务](http://blog.csdn.net/wenteryan/article/details/)
 * [x] [SpringBoot进阶邮件服务(实战模拟注册含源码)](http://blog.csdn.net/wenteryan/article/details/78600865)
 * [ ] SpringBoot进阶整合Mybatis
 * [ ] SpringBoot进阶整合Redis
