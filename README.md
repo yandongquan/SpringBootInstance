@@ -18,7 +18,7 @@
 * [x] [SpringBootQuartz](https://github.com/yandongquan/SpringBootInstance/tree/master/SpringBootQuartz)：SpringBoot进阶定时任务
 * [x] [SpringBootEmail](https://github.com/yandongquan/SpringBootInstance/tree/master/SpringBootEmail)：SpringBoot进阶邮件服务(实战模拟注册含源码)
 * [ ] SpringBootMybatis：SpringBoot进阶整合Mybatis
-* [x] SpringBootRedis：SpringBoot进阶整合Redis
+* [x] [SpringBootRedis](https://github.com/yandongquan/SpringBootInstance/tree/master/SpringBootRedis)：SpringBoot进阶整合Redis
 * [ ] SpringBootShiro：springBoot整合shiro
 * [ ] SpringBootMQ：SpringBoot进阶整合消息队列RabbitMQ
 * [ ] SpringBoot实战开发Java错误管理系统
@@ -35,7 +35,7 @@
 * [x] [SpringBoot进阶定时任务](http://blog.csdn.net/wenteryan/article/details/)
 * [x] [SpringBoot进阶邮件服务(实战模拟注册含源码)](http://blog.csdn.net/wenteryan/article/details/78600865)
 * [ ] SpringBoot进阶整合Mybatis
-* [ ] SpringBoot进阶整合Redis
+* [x] SpringBoot进阶整合Redis
 * [ ] SpringBoot进阶整合消息队列RabbitMQ
 * [ ] SpringBoot实战开发Java错误管理系统
 * [ ] 更多功能未完待续。。。
