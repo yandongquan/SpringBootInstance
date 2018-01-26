@@ -14,6 +14,6 @@ public class IndexRestController {
 
     @RequestMapping(value = "/indexRest")
     public String index() {
-        return "index";
+        return "indexRest";
     }
 }
