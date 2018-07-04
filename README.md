@@ -17,7 +17,7 @@
 * [x] [SpringBootSwagger](https://github.com/yandongquan/SpringBootInstance/tree/master/SpringBootSwagger)：SpringBoot进阶之Swagger2构建RESTful API
 * [x] [SpringBootQuartz](https://github.com/yandongquan/SpringBootInstance/tree/master/SpringBootQuartz)：SpringBoot进阶定时任务
 * [x] [SpringBootEmail](https://github.com/yandongquan/SpringBootInstance/tree/master/SpringBootEmail)：SpringBoot进阶邮件服务(实战模拟注册含源码)
-* [ ] [SpringBootFavicon](https://github.com/yandongquan/SpringBootInstance/tree/master/SpringBootFavicon)：SpringBoot自定义favicon.ico
+* [x] [SpringBootFavicon](https://github.com/yandongquan/SpringBootInstance/tree/master/SpringBootFavicon)：SpringBoot自定义favicon.ico
 * [ ] SpringBootMybatis：SpringBoot进阶整合Mybatis
 * [x] [SpringBootRedis](https://github.com/yandongquan/SpringBootInstance/tree/master/SpringBootRedis)：SpringBoot进阶整合Redis
 * [ ] SpringBootShiro：springBoot整合shiro
