@@ -104,7 +104,7 @@ public class UserController {
         message.setFrom(sender);
         // 接收者
         message.setTo(recipient);
-        //邮件主题
+        // 邮件主题
         message.setSubject("Java资源分享网密码重置邮件");
         // 邮件内容
         message.setText(text);
