@@ -38,7 +38,7 @@ public class EmailTests {
     @Value("${spring.mail.username}")
     private String sender;
 
-    private static final String recipient = "yandongquanlove@163.com" ;
+    private static final String recipient = "xxxxxxxxxxxx@163.com" ;
 
     @Test
     public void sendAll() {
